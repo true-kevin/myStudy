@@ -11,6 +11,15 @@
 |
 */
 
+/*
 Route::get('/', function () {
     return view('welcome');
+});
+*/
+Route::get('/', function () {
+    return view('welcome');
+});
+
+Route::get('/home', function () {
+    return redirect('http://www.naver.com');
 });
